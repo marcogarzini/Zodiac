@@ -1,0 +1,13 @@
+#!/usr/bin/python2.7
+
+import sys
+sys.path[0:0] = [
+  '/home/user1/newproject/eggs/supervisor-3.0-py2.7.egg',
+  '/home/user1/newproject/eggs/meld3-0.6.10-py2.7.egg',
+  '/usr/local/lib/python2.7/dist-packages',
+  ]
+
+import supervisor.confecho
+
+if __name__ == '__main__':
+    sys.exit(supervisor.confecho.main())

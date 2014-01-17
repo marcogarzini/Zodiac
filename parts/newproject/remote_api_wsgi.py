@@ -1,0 +1,1 @@
+/home/user1/newproject/src/newproject/remote_api_wsgi.py

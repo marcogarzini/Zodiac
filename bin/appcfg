@@ -1,0 +1,11 @@
+#!/usr/bin/python2.7
+
+import sys
+sys.path[0:0] = [
+  '/home/user1/newproject/parts/google_appengine',
+  ]
+
+import appcfg
+
+if __name__ == '__main__':
+    sys.exit(appcfg._run_file('/home/user1/newproject/parts/google_appengine/appcfg.py', locals()))

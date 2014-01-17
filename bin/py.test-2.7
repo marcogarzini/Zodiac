@@ -1,0 +1,28 @@
+#!/usr/bin/python2.7
+
+import sys
+sys.path[0:0] = [
+  '/home/user1/newproject/eggs/WebTest-2.0.9-py2.7.egg',
+  '/home/user1/newproject/eggs/WebOb-1.2.3-py2.7.egg',
+  '/home/user1/newproject/eggs/pytest-2.4.2-py2.7.egg',
+  '/home/user1/newproject/eggs/pytest_cov-1.6-py2.7.egg',
+  '/home/user1/newproject/eggs/cov_core-1.7-py2.7.egg',
+  '/home/user1/newproject/eggs/py-1.4.17-py2.7.egg',
+  '/home/user1/newproject/eggs/beautifulsoup4-4.3.2-py2.7.egg',
+  '/home/user1/newproject/eggs/waitress-0.8.7-py2.7.egg',
+  '/home/user1/newproject/eggs/six-1.4.1-py2.7.egg',
+  '/home/user1/newproject/eggs/coverage-3.7-py2.7.egg',
+  '/usr/local/lib/python2.7/dist-packages',
+  '/home/user1/newproject/bin',
+  '/home/user1/newproject/parts/newproject',
+  '/home/user1/newproject/parts/google_appengine',
+  '/home/user1/newproject/parts/google_appengine/lib/antlr3',
+  '/home/user1/newproject/parts/google_appengine/lib/django',
+  '/home/user1/newproject/parts/google_appengine/lib/fancy_urllib',
+  '/home/user1/newproject/parts/google_appengine/lib/yaml/lib',
+  ]
+
+import pytest
+
+if __name__ == '__main__':
+    sys.exit(pytest.main())

@@ -1,0 +1,1 @@
+/home/user1/newproject/src/newproject/newproject/__init__.py
